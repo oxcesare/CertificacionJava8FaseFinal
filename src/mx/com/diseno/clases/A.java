@@ -5,6 +5,8 @@
  */
 package mx.com.diseno.clases;
 
+import java.util.stream.Stream;
+
 /**
  *
  * @author consultor006
@@ -38,6 +40,9 @@ class B extends A {
     public static void main(String[] args) {
         A a = new B();
         a.print();
+        
+        Stream  impares = Stream.iterate(1, x -> x + 2).limit(10);
+        System.out.println("impares"+" " + impares);
     }
 
     public void print() {

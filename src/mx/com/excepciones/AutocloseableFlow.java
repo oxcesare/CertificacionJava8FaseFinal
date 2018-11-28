@@ -17,7 +17,7 @@ import javax.management.RuntimeErrorException;
  * Dentro de una clase podemos encontrar clases staticas internas.
  * 
  * En este ejemplo se imprimen todas las variables debido a que la clase statatica
- * Window manda lanza un RuntimeException y eso hace que se mande a llamar  a catch
+ * Window lanza un RuntimeException y eso hace que se mande a llamar  a catch
  *
  */
 public class AutocloseableFlow {
